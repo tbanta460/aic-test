@@ -1,0 +1,59 @@
+.container-about-us{
+    background-color:rgb(0,0,0, 1);
+    position:relative;
+    margin-top:50px;
+}
+.container-about-us .wrp img{
+    width:100%;
+    opacity:0.2;
+    height:40rem;
+}
+.img-about-us{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.img-about-us img{
+    width: 20rem;
+    height:20rem;
+    position:absolute;
+    top:0;
+    border-radius: 100%
+}
+.img-about-us img:nth-child(1){
+   top:15rem;
+   left:20rem;
+}
+.img-about-us img:nth-child(2){
+    top:15rem;
+    left:3rem;
+}
+.grd-span{
+    top:5rem;
+    left:10rem
+}
+.chd-about-us-txt h3{
+    color:white!important;
+    font-size:30px;
+}
+.chd-about-us-txt span{
+    color:white;
+    font-size:20px;
+}
+.chd-about-us-txt{
+    position:absolute;
+    color:white!important;
+    text-align: start;
+    top:8rem;
+    right:10px;
+}
+.chd-about-us-txt ul li{
+    margin:50px 0;
+}
+.chd-about-us-txt ul li::before{
+    content:"";
+    padding:0.1px 8px;
+    margin-right:10px;
+    border-radius:100%;
+    background-color: white;
+
+}

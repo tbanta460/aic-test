@@ -1,0 +1,20 @@
+.my-team{
+    display:flex;
+    justify-content: space-around;
+}
+.my-team img{
+    width: 150px;
+    height:150px;
+    border-radius:100%;
+    margin-bottom:20px;
+}
+.container-teams{
+    margin:150px 0;
+}
+.container-teams h3{
+    font-size:30px;
+    margin-bottom: 50px;;
+}
+.container-teams h5{
+    font-size:25px;
+}

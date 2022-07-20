@@ -1,0 +1,24 @@
+.container-contact-us{
+    position: relative;
+    margin-top:5rem;
+    padding:20px 0;
+}
+.chd-contact-us img{
+    position: absolute;
+    right:20px;
+    bottom:0;
+    height:420px;
+}
+.cta{
+    width:70%;
+    margin-left:50px;
+}
+.cta > *{
+    margin-top:20px;
+}
+.cta h3{
+    font-size:30px;
+}
+.chd-cta > *{
+    margin:0 10px;
+}

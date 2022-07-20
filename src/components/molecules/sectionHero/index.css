@@ -1,0 +1,67 @@
+.btn{
+    border:0;
+    outline: none;
+    background-color: #0B0B28;
+    color:white;
+    padding:10px 20px;
+    border-radius: 20px;
+    width: max-content;
+    cursor:pointer;
+}
+span{
+    width:max-content
+}
+
+.wrp-chd{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Bagian Text */
+.wrp-span-txt{
+    display:flex;
+    flex-direction: column;
+}
+.chd-prt-one > * {
+    text-align: start;
+    width:max-content;
+    margin:15px 0;
+}
+.chd-prt-one{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.chd-prt-one h2{
+    font-size: 30px;
+    width:75%!important;
+    margin-top:0!important
+}
+
+/* Bagian Hero Image */
+.hero-img-prt-one{
+    margin: 0 50px 0 0;
+}
+.wrp-hero-img{
+    display:flex;
+    justify-content: end;
+}
+.wrp-hero-img img{
+    width:300px;
+    height:200px;
+}
+
+.wrp-img-one img, .wrp-img-four img{
+    border-radius: 100px 30px 100px 30px;
+}
+
+.wrp-img-three img{
+    border-radius: 100px 100px 100px 10px;
+}
+
+.wrp-img-two img {
+    border-radius: 100px 10px 100px 100px 
+}
+
+.wrp-img-two,.wrp-img-four{
+    margin: 20px 0 0 0;
+}

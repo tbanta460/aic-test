@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:0;
+    margin:0;
+}
+
+ul, ul li{
+    list-style: none;
+}
+p, h1,h2,h3,h4,h5,h6,span,div{
+    color:#0B0B28
+}
+a, .nav-link{
+    text-decoration: none;
+    color: #0B0B28;
+}
+
+.main-header{
+    display:grid;
+    grid-template-columns: max-content 1fr;
+    padding:20px;
+}
+.main-header nav ul{
+    display:flex;
+    justify-content: end;
+    margin:0 10px;
+}
+
+.main-header a{
+    padding:9px 15px;
+    cursor: pointer;
+}
+.main-header a:hover{
+    color:rgb(38, 107, 211)
+}
